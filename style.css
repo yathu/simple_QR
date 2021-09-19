@@ -1,0 +1,37 @@
+.barcode-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.barcode-container input{
+    height: 28px;
+    max-width: 500px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+
+.barcode-container button{
+    height: 40px;
+    background-color: #00c10f;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+.qr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#qrcode {
+    /* width:160px;
+    height:160px; */
+    margin-top:15px;
+}
