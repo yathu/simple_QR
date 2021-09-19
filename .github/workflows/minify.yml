@@ -22,7 +22,7 @@ jobs:
       - name: copy file
         uses: canastro/copy-file-action@master
         with:
-          source: "./index.html"
+          source: "index.html"
           target: "docs/index.html"
 
       - name: Auto committing minified files
