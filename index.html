@@ -11,16 +11,25 @@
 </head>
 
 <body>
+    <div class="header">
+        <h1 class="heading">QR Code generator</h1>
+        <h2>
+            Free online Simple QR Code Generator.
+            No sign-up required. Create and Download unlimited free QR code Images.
+        </h2>
+    </div>
 
     <div class="barcode-container">
         <input id="text" type="text" value="" placeholder="URL / Text" style="width:80%" />
-        <button class="button" id="generate_button">Generate</button>
+        <button class="button btn" id="generate_button">Generate</button>
     </div>
 
     <br />
 
     <div class="qr-container">
         <div id="qrcode"></div>
+
+        <button class="button btn" id="download_btn">Download</button>
     </div>
 
     <script src="jquery-3.6.0.min.js"></script>
