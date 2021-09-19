@@ -3,7 +3,7 @@ name: Minify to docs
 on:
   push:
     branches:
-      - master
+      - production
 
 jobs:
   # build:
