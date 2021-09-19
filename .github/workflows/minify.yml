@@ -5,5 +5,5 @@ steps:
   - name: Auto Minify
     uses: nizarmah/auto-minify@v2.1
     with:
-      directory: ''
+      directory: '.'
       output: 'docs'
