@@ -1,9 +1,19 @@
-steps:
-  # Checks-out your repository under $GITHUB_WORKSPACE, so auto-minify job can access it
-  - uses: actions/checkout@v2
+name: Minify to docs
 
-  - name: Auto Minify
-    uses: nizarmah/auto-minify@v2.1
-    with:
-      directory: '.'
-      output: 'docs'
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so auto-minify job can access it
+      - uses: actions/checkout@v2
+
+      - name: Auto Minify
+        uses: nizarmah/auto-minify@v2.1
+        with:
+          directory: './'
+          output: 'docs'
