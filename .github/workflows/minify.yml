@@ -24,6 +24,7 @@ jobs:
         with:
           source: "index.html"
           target: "docs/index.html"
+          flags: '-r'
 
       - name: Auto committing minified files
         uses: stefanzweifel/git-auto-commit-action@v4
