@@ -25,9 +25,9 @@ jobs:
           source: "index.html"
           target: "docs/index.html"
 
-      - name: Auto committing minified files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          repository: 'docs'
-          commit_message: "Github Action: Auto Minified JS and CSS files"
-          branch: ${{ github.ref }}
+      # - name: Auto committing minified files
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     repository: 'docs'
+      #     commit_message: "Github Action: Auto Minified JS and CSS files"
+      #     branch: ${{ github.ref }}
