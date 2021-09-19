@@ -18,6 +18,13 @@ jobs:
           directory: './'
           output: 'docs'
 
+      - uses: actions/checkout@master
+      - name: copy file
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./index.html"
+          target: "docs/index.html"
+
       - name: Auto committing minified files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
