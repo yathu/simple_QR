@@ -6,9 +6,9 @@ on:
       - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
+  # build:
+    # runs-on: ubuntu-latest
+    # steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so auto-minify job can access it
       # - uses: actions/checkout@v2
 
@@ -18,12 +18,12 @@ jobs:
       #     directory: './'
       #     output: 'docs'
 
-      - uses: actions/checkout@master
-      - name: copy file
-        uses: canastro/copy-file-action@master
-        with:
-          source: "index.html"
-          target: "docs/index.html"
+      # - uses: actions/checkout@master
+      # - name: copy file
+      #   uses: canastro/copy-file-action@master
+      #   with:
+      #     source: "index.html"
+      #     target: "docs/index.html"
 
       # - name: Auto committing minified files
       #   uses: stefanzweifel/git-auto-commit-action@v4
