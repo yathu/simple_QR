@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6c7d5ceb.chunk.css",
+    "main.js": "./static/js/main.752da1fb.chunk.js",
+    "main.js.map": "./static/js/main.752da1fb.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.793b62be.js",
+    "runtime-main.js.map": "./static/js/runtime-main.793b62be.js.map",
+    "static/js/2.6dbd7c35.chunk.js": "./static/js/2.6dbd7c35.chunk.js",
+    "static/js/2.6dbd7c35.chunk.js.map": "./static/js/2.6dbd7c35.chunk.js.map",
+    "static/js/3.ec4d9382.chunk.js": "./static/js/3.ec4d9382.chunk.js",
+    "static/js/3.ec4d9382.chunk.js.map": "./static/js/3.ec4d9382.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.6c7d5ceb.chunk.css.map": "./static/css/main.6c7d5ceb.chunk.css.map",
+    "static/js/2.6dbd7c35.chunk.js.LICENSE.txt": "./static/js/2.6dbd7c35.chunk.js.LICENSE.txt",
+    "static/media/excel.28bb5d07.svg": "./static/media/excel.28bb5d07.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.793b62be.js",
+    "static/js/2.6dbd7c35.chunk.js",
+    "static/css/main.6c7d5ceb.chunk.css",
+    "static/js/main.752da1fb.chunk.js"
+  ]
+}
